@@ -41,4 +41,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 First of all, clone the app using `git clone clone-url clone-directory`.
 
-Then, you can add your firebase configs inside of `src/app/firebase.js` !IMPORTANT (you need to create this .js file yourself). Here is the example of the insides : [src/app/firebase.js](https://github.com/puruhitaaa/discord-clone-app/blob/master/src/app/firebase.example.js)
+Here is the example of the firebase config : [firebase](https://github.com/puruhitaaa/discord-clone-app/blob/master/src/app/firebase.example.js). Copy the format of the example.js file and create a new file with the name of firebase.js on `src/app/` then paste it over there. Next step, you can basically change the config according to your firebase config.
+
+You are good to go!
