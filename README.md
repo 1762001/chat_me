@@ -41,4 +41,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 First of all, clone the app using `git clone clone-url clone-directory`.
 
-Then, you can add your firebase configs inside of `src/app/firebase.js` (you need to create this .js file yourself). Here is the example of the insides : [firebase.js]
+Then, you can add your firebase configs inside of `src/app/firebase.js` (you need to create this .js file yourself). Here is the example of the insides : [firebase]
