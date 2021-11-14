@@ -1,18 +1,25 @@
-.sidebarChannel:hover > h4 {
-  color: white;
-  background-color: #40464b;
+.sidebarChannel:hover>h4 {
+    color: white;
+    background-color: #40464b;
 }
 
-.sidebarChannel > h4 {
-  display: flex;
-  padding-left: 15px;
-  align-items: center;
-  background-color: #2f3135;
-  color: gray;
-  cursor: pointer;
+.sidebarChannel>h4 {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    background-color: #2f3135;
+    color: gray;
+    cursor: pointer;
+    padding-bottom: 5px;
 }
 
 .sidebarChannel__hash {
-  font-size: 30px;
-  padding: 30px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.sidebarChannel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
 }

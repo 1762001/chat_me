@@ -1,45 +1,50 @@
 .chat {
-  display: flex;
-  flex-direction: column;
-  flex: 0.75;
-  background-color: #363a3f;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    /* background-color: #363a3f; */
+    background-image: url("https://designshack.net/wp-content/uploads/background-textures.png");
+    height: 100vh;
+    background-repeat: repeat;
+    background-position: center;
+    overflow: scroll;
 }
 
 .chat__messages {
-  flex: 1;
+    flex: 1;
 }
 
 .chat__input {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  color: lightgray;
-  border-radius: 5px;
-  margin: 20px;
-  border-top: 1px solid gray;
-  background-color: #474b53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: lightgray;
+    border-radius: 50px;
+    margin: 20px;
+    border-top: 1px solid gray;
+    background-color: #0c0c0c;
 }
 
-.chat__input > form > input {
-  padding: 15px;
-  background: transparent;
-  border: none;
-  outline-width: 0;
-  color: white;
-  font-size: large;
-  width: 100%;
+.chat__input>form>input {
+    padding: 15px;
+    background: transparent;
+    border: none;
+    outline-width: 0;
+    color: white;
+    font-size: large;
+    width: 100%;
 }
 
-.chat__input > form {
-  flex: 1;
+.chat__input>form {
+    flex: 1;
 }
 
 .chat__inputButton {
-  display: none;
+    display: none;
 }
 
-.chat__inputIcons > .MuiSvgIcon-root {
-  padding: 5px;
+.chat__inputIcons>.MuiSvgIcon-root {
+    padding: 5px;
+    color: blueviolet;
 }

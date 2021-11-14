@@ -4,11 +4,11 @@ import '../styles/Sidebar.css';
 import { Avatar } from '@material-ui/core';
 import {
   Add,
-  Call,
+  // Call,
   ExpandMore,
-  Headset,
-  InfoOutlined,
-  Mic,
+  // Headset,
+  // InfoOutlined,
+  // Mic,
   Settings,
   SignalCellularAlt,
 } from '@material-ui/icons';
@@ -46,7 +46,8 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__top">
-        <h3>Discord Clone</h3>
+      <img className='logo' src="https://images-na.ssl-images-amazon.com/images/I/61p10BsEN-L.png" alt="" />
+        <h3>Chat with me</h3>
         <ExpandMore className="sidebar__expandMoreIcon" />
       </div>
 
@@ -54,6 +55,7 @@ function Sidebar() {
         <div className="sidebar__channelsHeader">
           <div className="sidebar__header">
             <ExpandMore className="sidebar__expandMoreIcon" />
+           
             <h4>Text Channels</h4>
           </div>
 
@@ -75,15 +77,15 @@ function Sidebar() {
         <SignalCellularAlt className="sidebar__voiceIcon" fontSize="large" />
 
         <div className="sidebar__voiceInfo">
-          <h3>Voice Connected</h3>
-          <p>Stream</p>
+          <h3>Chat Connected</h3>
+          <p>Welcome!!</p>
         </div>
 
-        <div className="sidebar__voiceIcons">
+         {/* <div className="sidebar__voiceIcons">
           <InfoOutlined />
           <Call />
-        </div>
-      </div>
+        </div> */}
+      </div> 
 
       <div className="sidebar__profile">
         <Avatar onClick={() => auth.signOut()} src={user.photo} />
@@ -93,8 +95,8 @@ function Sidebar() {
         </div>
 
         <div className="sidebar__profileIcons">
-          <Mic />
-          <Headset />
+          {/* <Mic />
+          <Headset /> */}
           <Settings />
         </div>
       </div>

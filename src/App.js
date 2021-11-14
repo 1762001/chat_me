@@ -22,6 +22,7 @@ function App() {
             photo: authUser.photoURL,
             email: authUser.email,
             displayName: authUser.displayName,
+            
           })
         );
       } else {

@@ -1,24 +1,26 @@
 .login {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  width: 100%;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
 }
 
-.login > button {
-  width: 300px;
-  background-color: #738adb;
-  color: #eff2f5;
-  font-weight: 800;
+.login>button {
+    margin-top: -250px;
+    width: 300px;
+    background-color: #9900ff;
+    color: #eff2f5;
+    font-weight: 800;
 }
 
-.login > button:hover {
-  background-color: white;
-  color: #738adb;
+.login>button:hover {
+    background-color: white;
+    color: #738adb;
 }
 
-.login > div > img {
-  object-fit: contain;
-  height: 150px;
-
+.login>div>img {
+    object-fit: contain;
+    height: 300px;
+    align-items: center;
 }

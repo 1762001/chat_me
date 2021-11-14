@@ -1,6 +1,6 @@
 Read instructions below before using :
 
-## How To Start Using This Source Code
+## How To Start Using This Source Code in VS
 
 First of all, clone the app using `git clone clone-url clone-directory`.
 
