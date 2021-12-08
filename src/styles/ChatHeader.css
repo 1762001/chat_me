@@ -52,6 +52,12 @@
     border: none;
 }
 
+.chatHeader__right>Button {
+    color: azure;
+    border-radius: 0.5rem;
+    background-color: blueviolet;
+}
+
 
 /* .chat__black {
     background-color: #111;

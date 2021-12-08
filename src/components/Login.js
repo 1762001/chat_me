@@ -10,6 +10,9 @@ function Login() {
 
   return (
     <div className="login">
+      <div className="nav_bar">
+        
+      </div>
       <div className="login__logo">
         <img
           src="https://images-na.ssl-images-amazon.com/images/I/61p10BsEN-L.png"
@@ -18,7 +21,10 @@ function Login() {
       </div>
 
       <Button onClick={signIn}>Sign In</Button>
+      
     </div>
+
+    
   );
 }
 

@@ -1,13 +1,15 @@
 import React from 'react';
 import {
   EditLocationRounded,
-  HelpRounded,
+  
   Notifications,
   PeopleAltRounded,
   SearchRounded,
-  SendRounded,
+  
 } from '@material-ui/icons';
 import '../styles/ChatHeader.css';
+import { auth } from '../app/firebase';
+import { Button } from '@material-ui/core';
 
 
 
@@ -31,8 +33,9 @@ function ChatHeader({ channelName }) {
           <SearchRounded />
         </div>
 
-        <SendRounded />
-        <HelpRounded />
+        {/* <SendRounded />
+        <HelpRounded /> */}
+        <Button onClick={() => auth.signOut()}>Sign Out</Button>
       </div>
     </div>
   );
